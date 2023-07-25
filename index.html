@@ -1,0 +1,192 @@
+<style>
+.hp-container {
+        justify-content: center;
+        margin: 0 auto;
+        display: flex;
+}
+
+.hp-container a {
+        text-decoration: none;        
+        color: #000;
+}
+
+.hp-card {
+        border: 1px solid #e7e7e7;
+        transition: transform 400ms;
+}
+
+.hp-card:hover {
+        transform: scale(1.01);
+}
+
+
+.hp-text {
+      padding: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 175px;
+}
+
+.hp-feature {
+        max-width: 735px;
+}
+
+
+.hp-button {
+        align-self: flex-end;
+        width: 200px;
+        margin-bottom: 45px;
+}
+
+.hp-button span {
+        font-size: 20px;
+        font-weight: 300;
+}
+
+.hp-text-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+}
+
+.retreat-banner-text-blurb-2 {
+            font-size: 1.75rem;
+            padding-bottom: 10px;
+}
+
+    .retreat-banner-image-3 {
+        background-image: url("/content/dam/celebrity/new-images/ships/celeb-ascent-by-evening-rendering-2560x1440.jpg?$24x13-large$");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        position: relative;
+    }
+
+    .retreat-banner-image-4 {
+        background-image: url("/content/dam/celebrity/new-images/perfect-day-at-cococay/perfect-day-at-cococay-beach-club-2560x1440.jpg?$24x13-large$");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        position: relative;
+    }
+
+    .retreat-banner-text-header{
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 1;
+        margin-top: 2rem;
+        text-transform: uppercase;
+    }
+
+    @media screen and (min-width: 769px){
+        .retreat-banner-image-3 {
+            width: 50%;
+        }
+        .retreat-banner-image-4 {
+            width: 50%;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        .retreat-banner-container {
+            margin: 0 15px;
+        }
+        .retreat-banner {
+            height: auto;
+            flex-direction: column;
+        }
+        .retreat-banner-image-3 {
+            height: 325px;
+            width: 100%;
+        }
+        .retreat-banner-image-4 {
+            height: 325px;
+            width: 100%;
+        }
+        .retreat-banner-text {
+            margin: 0 0 15px 0;
+            width: calc(100% - 40px);
+        }
+        .retreat-banner-text-header{
+            font-size: 3.75rem;
+        }
+        .retreat-banner-text-wrapper {
+            padding-bottom: 15px;
+         }
+    }
+
+</style>
+
+<div class="hp-container hidden-sm hidden-md hidden-xs ">
+<div class="col col-lg-6 hp-feature" style="text-align: center;">
+    <a href="/cruise-ships/celebrity-ascent" title="Learn More">
+<div class="hp-card">
+<img src="/content/dam/celebrity/new-images/ships/celeb-ascent-by-evening-rendering-2560x1440.jpg/_jcr_content/renditions/16x9-med.jpg?ch_ck=1688756206000" style="background-color: transparent; max-width: 100.0%;">
+<div class="hp-text">
+<div class="“hp-text-content”">
+    <p class="retreat-banner-text-header-2" style="text-align: left;"><span style="font-weight: 400;">Celebrity Ascent</span></p>
+    <p class="retreat-banner-text-blurb-2" style="text-align: left;">Be the first to experience our newest Edge® Series ship.</p>
+</div>
+<div class="hp-button">
+     <span class="button secondary">Learn More</span>
+</div>
+</div>
+</div>
+    </a>
+</div>
+<div class="col col-lg-6 hp-feature" style="text-align: center;">
+    <a href="/ports/cococay" title="Learn More">
+<div class="hp-card">
+<img src="/content/dam/celebrity/new-images/perfect-day-at-cococay/perfect-day-at-cococay-beach-club-2560x1440.jpg?$16x9-med$" style="background-color: transparent; max-width: 100.0%;">
+<div class="hp-text">
+<div class="“hp-text-content”">
+    <p class="retreat-banner-text-header-2" style="text-align: left;"><span style="font-weight: normal;">Perfect Day at Cococay</span></p>
+    <p class="retreat-banner-text-blurb-2" style="text-align: left;">Now sailing to the Caribbean’s most exclusive escape.</p>
+</div>
+<div class="hp-button">
+     <span class="button secondary">Learn More</span>
+</div>
+</div>
+</div>
+    </a>
+</div>
+</div>
+
+<!-- Medium and Small view only 1 column stacked-->
+<div class="hidden-lg">
+<div class="retreat-banner-container">
+    <a href="/cruise-ships/celebrity-ascent" title="Learn More">
+    <div class="retreat-banner">
+        <div class="retreat-banner-image-3">
+        </div>
+        <div class="retreat-banner-text">
+            <div class="retreat-banner-text-wrapper">
+                <p class="retreat-banner-text-header">Celebrity Ascent</p>
+                <p class="retreat-banner-text-blurb-2">Be the first to experience our newest Edge® Series ship</p>
+
+                <span class="button secondary">Learn More</span>
+            </div>
+        </div>
+    </div>
+    </a>
+</div>
+<div class="retreat-banner-container">
+    <a href="/ports/cococay" title="Learn More">
+    <div class="retreat-banner">
+        <div class="retreat-banner-image-4">
+        </div>
+        <div class="retreat-banner-text">
+            <div class="retreat-banner-text-wrapper">
+                <p class="retreat-banner-text-header">Perfect Day at Cococay</p>
+                <p class="retreat-banner-text-blurb-2">Now sailing to the Caribbean’s most exclusive escape.</p>
+
+                <span class="button secondary">Learn More</span>
+            </div>
+        </div>
+    </div>
+</a></div><a href="/ports/cococay" title="Learn More">
+    </a>
+</div>
